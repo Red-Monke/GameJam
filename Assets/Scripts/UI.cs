@@ -38,7 +38,7 @@ public class UI : MonoBehaviour
 
     public void LoadLevel(int level){
         Debug.Log("Tried loading level: " + level);
-        //SceneManager.LoadScene(level, LoadSceneMode.Single);
+        SceneManager.LoadScene(level, LoadSceneMode.Single);
     }
 
     public void StartRebindKey(TextMeshProUGUI text, InputActionReference actionToChange){
